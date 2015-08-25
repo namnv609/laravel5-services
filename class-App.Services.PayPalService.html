@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class App\Services\PayPalService</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-App.html">
+						App<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-App.Repositories.html">
+						Repositories<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-App.Repositories.Contracts.html">
+						Contracts					</a>
+
+						</li>
+				<li>
+					<a href="namespace-App.Repositories.Eloquent.html">
+						Eloquent					</a>
+
+						</li>
+							</ul></li>
+				<li class="active">
+					<a href="namespace-App.Services.html">
+						Services					</a>
+
+						</li>
+							</ul></li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-App.Services.MailService.html">MailService</a></li>
+				<li class="active"><a href="class-App.Services.PayPalService.html">PayPalService</a></li>
+				<li><a href="class-App.Services.SendGridService.html">SendGridService</a></li>
+				<li><a href="class-App.Services.ThumbnailService.html">ThumbnailService</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-App.Services.html" title="Summary of App\Services"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class PayPalService</h1>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-App.html">App</a>\<a href="namespace-App.Services.html">Services</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-App.Services.PayPalService.html#17-305" title="Go to source code">Services/PayPalService.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#49-60" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			
+		</div>
+
+		<div class="description detailed hidden">
+			
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCurrency" id="_setCurrency">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-App.Services.PayPalService.html">App\Services\PayPalService</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCurrency">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#62-72" title="Go to source code">setCurrency</a>( <span>string <var>$currency</var></span> )</code>
+
+		<div class="description short">
+			<p>Set payment currency</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set payment currency</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$currency</var></dt>
+					<dd>String name of currency</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-App.Services.PayPalService.html">App\Services\PayPalService</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCurrency" id="_getCurrency">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCurrency">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#74-82" title="Go to source code">getCurrency</a>( )</code>
+
+		<div class="description short">
+			<p>Get current payment currency</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get current payment currency</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Current payment currency
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setItem" id="_setItem">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-App.Services.PayPalService.html">App\Services\PayPalService</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setItem">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#84-111" title="Go to source code">setItem</a>( <span>array <var>$itemData</var></span> )</code>
+
+		<div class="description short">
+			<p>Add item to list</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add item to list</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$itemData</var></dt>
+					<dd>Array item data</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-App.Services.PayPalService.html">App\Services\PayPalService</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getItemList" id="_getItemList">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getItemList">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#113-121" title="Go to source code">getItemList</a>( )</code>
+
+		<div class="description short">
+			<p>Get list item</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get list item</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array<br>List item
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTotalAmount" id="_getTotalAmount">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTotalAmount">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#123-131" title="Go to source code">getTotalAmount</a>( )</code>
+
+		<div class="description short">
+			<p>Get total amount</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get total amount</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer<br>Total amount
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setReturnUrl" id="_setReturnUrl">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-App.Services.PayPalService.html">App\Services\PayPalService</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setReturnUrl">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#133-144" title="Go to source code">setReturnUrl</a>( <span>string <var>$url</var></span> )</code>
+
+		<div class="description short">
+			<p>Set return URL</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set return URL</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd>Return URL for payment process complete</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-App.Services.PayPalService.html">App\Services\PayPalService</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getReturnUrl" id="_getReturnUrl">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getReturnUrl">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#146-154" title="Go to source code">getReturnUrl</a>( )</code>
+
+		<div class="description short">
+			<p>Get return URL</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get return URL</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Return URL
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setCancelUrl" id="_setCancelUrl">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-App.Services.PayPalService.html">App\Services\PayPalService</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setCancelUrl">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#156-167" title="Go to source code">setCancelUrl</a>( <span> <var>$url</var></span> )</code>
+
+		<div class="description short">
+			<p>Set cancel URL</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set cancel URL</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$url</var></dt>
+					<dd>URL for payment</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-App.Services.PayPalService.html">App\Services\PayPalService</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCancelUrl" id="_getCancelUrl">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCancelUrl">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#169-177" title="Go to source code">getCancelUrl</a>( )</code>
+
+		<div class="description short">
+			<p>Get cancel URL of payment</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get cancel URL of payment</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string<br>Cancel URL
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createPayment" id="_createPayment">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createPayment">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#179-238" title="Go to source code">createPayment</a>( <span>string <var>$transactionDescription</var></span> )</code>
+
+		<div class="description short">
+			<p>Create payment</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create payment</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$transactionDescription</var></dt>
+					<dd>Description for transaction</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed<br>Paypal checkout URL or false
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPaymentStatus" id="_getPaymentStatus">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPaymentStatus">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#240-264" title="Go to source code">getPaymentStatus</a>( )</code>
+
+		<div class="description short">
+			<p>Get payment status</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get payment status</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed<br>Object payment details or false
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPaymentDetails" id="_getPaymentDetails">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPaymentDetails">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#266-281" title="Go to source code">getPaymentDetails</a>( <span>string <var>$paymentId</var></span> )</code>
+
+		<div class="description short">
+			<p>Get payment details</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get payment details</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$paymentId</var></dt>
+					<dd>PayPal payment Id</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed<br>Object payment details
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getPaymentList" id="_getPaymentList">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getPaymentList">#</a>
+		<code><a href="source-class-App.Services.PayPalService.html#283-304" title="Go to source code">getPaymentList</a>( <span>integer <var>$limit</var> = <span class="php-num">10</span></span>, <span>integer <var>$offset</var> = <span class="php-num">0</span></span> )</code>
+
+		<div class="description short">
+			<p>Get payment list</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get payment list</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$limit</var></dt>
+					<dd>Limit number payment</dd>
+					<dt><var>$offset</var></dt>
+					<dd>Start index payment</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed<br>Object payment list
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
